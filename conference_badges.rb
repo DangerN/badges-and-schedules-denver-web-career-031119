@@ -10,8 +10,8 @@ def batch_badge_creator(names)
   names.collect { |name| badge_maker(name) }
 end
 
-def assign_rooms
-  
+def assign_rooms(speaker)
+  speaker.
 end 
 
 def printer
