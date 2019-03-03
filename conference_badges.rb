@@ -7,7 +7,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-  names.collect
+  names.collect { |name| 
   
 end
 
