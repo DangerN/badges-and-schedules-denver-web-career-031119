@@ -14,6 +14,8 @@ def assign_rooms(speaker)
   speaker.map.with_index { | x, i | "Hello, #{x}! You'll be assigned to room #{i+1}!"}
 end 
 
-def printer
+def printer(attendees)
+  puts batch_badge_creator(attendees)
+  puts assign_rooms(attendees)
   
 end 
